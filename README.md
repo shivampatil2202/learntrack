@@ -60,7 +60,7 @@ learntrack/
 │               └── enums/
 │                   ├── EnrollmentStatus.java
 │                   └── CourseStatus.java
-
+```
 
 ## How to Run
 
