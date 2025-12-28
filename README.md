@@ -28,43 +28,39 @@ A console-based application for managing students, courses, and enrollments buil
 
 ## Project Structure
 
-src/
-└── com/
-    └── airtribe/
-        └── learntrack/
-            ├── Main.java
-            │
-            ├── entity/
-            │   ├── Person.java
-            │   ├── Student.java
-            │   ├── Course.java
-            │   └── Enrollment.java
-            │
-            ├── repository/
-            │   ├── StudentRepository.java
-            │   ├── CourseRepository.java
-            │   └── EnrollmentRepository.java
-            │
-            ├── service/
-            │   ├── StudentService.java
-            │   ├── CourseService.java
-            │   └── EnrollmentService.java
-            │
-            ├── exception/
-            │   ├── EntityNotFoundException.java
-            │   └── InvalidInputException.java
-            │
-            ├── util/
-            │   ├── IdGenerator.java
-            │   └── InputValidator.java
-            │
-            ├── constants/
-            │   ├── MenuOptions.java
-            │   └── AppConstants.java
-            │
-            └── enums/
-                ├── EnrollmentStatus.java
-                └── CourseStatus.java
+```text
+learntrack/
+├── src/
+│   └── com/
+│       └── airtribe/
+│           └── learntrack/
+│               ├── Main.java
+│               ├── entity/
+│               │   ├── Person.java
+│               │   ├── Student.java
+│               │   ├── Course.java
+│               │   └── Enrollment.java
+│               ├── repository/
+│               │   ├── StudentRepository.java
+│               │   ├── CourseRepository.java
+│               │   └── EnrollmentRepository.java
+│               ├── service/
+│               │   ├── StudentService.java
+│               │   ├── CourseService.java
+│               │   └── EnrollmentService.java
+│               ├── exception/
+│               │   ├── EntityNotFoundException.java
+│               │   └── InvalidInputException.java
+│               ├── util/
+│               │   ├── IdGenerator.java
+│               │   └── InputValidator.java
+│               ├── constants/
+│               │   ├── MenuOptions.java
+│               │   └── AppConstants.java
+│               └── enums/
+│                   ├── EnrollmentStatus.java
+│                   └── CourseStatus.java
+
 
 ## How to Run
 
