@@ -106,12 +106,6 @@ You can add more data through the menu options.
 - **Input Validation**: Validates email format, names, and positive numbers
 - **Auto-generated IDs**: Uses static utility class for unique ID generation
 
-## Team Members
-
-- Member 1: [Name] - Entity classes and inheritance
-- Member 2: [Name] - Services and business logic
-- Member 3: [Name] - Utilities, exceptions, and documentation
-
 ## Future Enhancements
 
 - File persistence for data storage
